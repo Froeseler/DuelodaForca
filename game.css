@@ -1,0 +1,31 @@
+
+body {
+    background: lightblue;
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.login_div1, .login_div2 {
+    background:white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    margin: 0;
+}
+
+#player1_name, #player2_name {
+    display: inline-block;
+    margin-left: 20px;
+}

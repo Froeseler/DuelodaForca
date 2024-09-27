@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duelo da Forca</title>
+    <!-- Bootstrap CSS (Bootstrap 3.4.0) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+    <h1 style="margin-top: 5%; padding-bottom: 0;">Duelo da Forca</h1>
+    <div class="container">
+        <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-8 col-xs-11">
+            <div class="login_div1">
+                <h3>Jogador 1, entre para jogar</h3>
+                <label for="player1_name_input">Nome de jogador:</label>
+                <input type="text" id="player1_name_input" class="form-control" placeholder="Nome do jogador 1">
+            </div>
+        </div>
+        <br>
+        <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-8 col-xs-11">
+            <div class="login_div2">
+                <h3>Jogador 2, entre para jogar</h3>
+                <label for="player2_name_input">Nome de jogador:</label>
+                <input type="text" id="player2_name_input" class="form-control" placeholder="Nome do jogador 1">
+            </div>
+        </div>
+    </div>
+        <button style="width: 30%; margin-top: 0; margin-bottom: 5%;" class="btn btn-primary" onclick="addUser()">Entrar</button>
+    <!-- Script JS -->
+    <script src="game_login.js"></script>
+</body>
+</html>

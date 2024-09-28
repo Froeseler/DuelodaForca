@@ -2,12 +2,13 @@
 body {
     background: lightblue;
     text-align: center;
-}
+   }
 
 .container {
-    display:flex;
     align-items: center;
+    display: flex;
     justify-content: center;
+    justify-items: center;
     height: 80%;
     flex-direction: column;
     margin-left: 0;
@@ -17,12 +18,13 @@ body {
     padding-bottom: 3%;
 }
 
-.login_div1, .login_div2 {
+.login_div {
     background:white;
     padding: 10px;
     float: none;
     border-radius: 15px;
-    margin: 0;
+    margin:0;
+
 }
 
 #player1_name, #player2_name {

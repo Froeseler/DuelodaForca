@@ -2,6 +2,7 @@
 body {
     background: lightblue;
     text-align: center;
+    
    }
 
 .container {
@@ -16,6 +17,7 @@ body {
     margin-bottom: 0;
     padding-top: 2%;
     padding-bottom: 3%;
+    
 }
 
 .login_div {
